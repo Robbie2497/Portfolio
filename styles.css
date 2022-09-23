@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 /* Document */
 body {
     background-color: white;
@@ -60,6 +68,10 @@ body {
 }
 
 /* About Me */
+.about-me-container {
+    margin-top: 100px;
+}
+
 .about-me { 
     background-color: aliceblue;
     height: 450px;
@@ -67,7 +79,7 @@ body {
 } 
 
 .picture-of-me { 
-    border: 3px solid royalblue; 
+    border: 3px solid turquoise; 
     margin: 10px 0;
 } 
 
@@ -93,4 +105,162 @@ body {
 .footer-link:hover {
     color: aqua;
     text-decoration: none;
+} 
+
+.badge-container { 
+    padding-left: 225px;
 }
+
+.badge-img { 
+    height: 200px; 
+    width: 200px; 
+} 
+
+.badge-txt { 
+    padding-top: 15px; 
+    padding-right: 100px;
+    opacity: 40%;
+} 
+
+} 
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .badge-img { 
+        height: 200px; 
+        width: 200px; 
+        margin-left: 75px;
+    } 
+  
+    .badge-txt { 
+        margin-left: 50px;
+    }
+  
+} 
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+} 
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* Document */
+    body {
+        background-color: white;
+    }
+    
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+    } 
+    
+    #content-wrap { 
+        padding-bottom: 2.5rem;
+    } 
+    
+    /* Navbar */ 
+    
+    /* Logo */
+    .logo {
+        margin: 5px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid white;
+    }
+    
+    /* Nav-Link */
+    .nav-link { 
+        color: white;
+        margin-top: 10px;
+    }
+    
+    .nav-link:hover { 
+        color: aqua;
+    }
+    
+    .nav-link:focus { 
+        /* background-color: #B2E5DC;  */
+        background-color: #93CFA2; 
+        color: black;
+    } 
+    
+    .nav-background { 
+        background-color: black;
+        height: 60px;
+        width: 100%;
+    }
+    
+    /* Header */
+    .header { 
+        background-image: linear-gradient(to bottom left, #93CFA2, #B2E5DC, #93CFA2);
+        height:100px;
+        width: 100%;
+    } 
+    
+    .header-text {
+        text-align: center;
+    }
+    
+    /* About Me */
+    .about-me-container {
+        margin-top: 50px;
+    }
+    
+    .about-me { 
+        background-color: aliceblue;
+        height: 450px;
+        overflow: scroll;
+    
+    } 
+    
+    .picture-of-me { 
+        border: 3px solid royalblue; 
+        margin-bottom: 50px;
+    } 
+    
+    /* Footer */
+    #footer { 
+        position: absolute;
+        bottom: 0; 
+        width: 100%; 
+        height: 1.0rem;
+    } 
+    
+    .footer-color { 
+        background-color: black;
+        color: white;
+    } 
+    
+    .footer-link { 
+        color: white;
+        text-decoration: underline;
+    } 
+    
+    .footer-link:hover {
+        color: aqua;
+        text-decoration: none;
+    } 
+    
+    .badge-img { 
+        height: 150px; 
+        width: 150px; 
+    } 
+    
+    .badge-txt { 
+        padding-top: 15px; 
+        opacity: 40%;
+    }
+} 
