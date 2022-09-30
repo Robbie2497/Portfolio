@@ -2,14 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} 
+
+.btn-primary {
+    background-color: #B2E5DC;
+    color: black;
 }
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
 /* Document */
 body {
     background-color: white;
-}
+} 
+
+/* Home Page */
 
 #page-container {
     position: relative;
@@ -108,7 +116,7 @@ body {
 } 
 
 .badge-container { 
-    padding-left: 225px;
+    padding-left: 100px;
 }
 
 .badge-img { 
@@ -121,6 +129,62 @@ body {
     padding-right: 100px;
     opacity: 40%;
 } 
+
+.footer-center { 
+    text-align: center;
+}  
+
+
+
+
+
+
+    /* Projects Page */
+    .projects-card {
+        background-color: green; 
+        height: 450px;
+        width: 100%;
+        overflow: scroll;
+        margin-bottom: 50px;
+        padding: 50px 0;
+    }     
+
+    .projects-container { 
+        background-color: black; 
+        
+}
+
+
+
+
+
+/* Contact Me Page */
+.contact-me-links { 
+    color: white; 
+    text-decoration: underline;
+} 
+
+.contact-me-links:hover {
+    color: aqua;
+    text-decoration: none;
+} 
+
+.contact-me-container { 
+    color: white;
+    background-color: black;
+    text-align: center; 
+    border: 5px solid #B2E5DC; 
+}
+
+/* Header */
+.contact-me-header {
+    background-image: linear-gradient(to bottom left, #93CFA2, #B2E5DC, #93CFA2);
+    height: 200px;
+    width: 100%; 
+    margin-top: -40px;
+    margin-bottom: 150px;
+
+}
 
 } 
 
@@ -262,5 +326,55 @@ body {
     .badge-txt { 
         padding-top: 15px; 
         opacity: 40%;
-    }
+    } 
+
+
+
+
+
+    /* Projects Page */
+.projects-card {
+    background-color: black;
+    padding-bottom: 20px;
 } 
+
+.bottom-card {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+    /* Contact Me Page */ 
+    
+
+/* Contact Me Page */
+.contact-me-links { 
+    color: white; 
+    text-decoration: underline;
+} 
+
+.contact-me-links:hover {
+    color: aqua;
+    text-decoration: none;
+} 
+
+.contact-me-container { 
+    color: white;
+    background-color: black;
+    text-align: center; 
+}
+
+/* Header */
+.contact-me-header {
+    background-image: linear-gradient(to bottom left, #93CFA2, #B2E5DC, #93CFA2);
+    height: 200px;
+    width: 100%; 
+    margin-top: -40px;
+    margin-bottom: 75px;
+
+} 
+
+
+}  
